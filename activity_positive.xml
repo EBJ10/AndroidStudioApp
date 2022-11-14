@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    tools:context=".activity_positive">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="825dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-43dp"
+        android:layout_marginTop="173dp"
+        android:layout_marginEnd="-7dp"
+        android:layout_marginBottom="-267dp"
+        app:srcCompat="@drawable/golden" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="651dp"
+        android:layout_marginEnd="30dp"
+        android:text="Return" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="152dp"
+        android:layout_height="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="146dp"
+        android:fontFamily="sans-serif"
+        android:text="That's Great!"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="371dp"
+        android:layout_height="175dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="214dp"
+        android:layout_marginTop="220dp"
+        android:lines="10"
+        android:text="Increased life span,
+        Lower rates of depression, Lower levels of distress and pain Greater resistance to illnesses,
+        Better psychological and physical well-being, Better cardiovascular health and reduced risk of death
+        from cardiovascular disease and stroke, Reduced risk of death from cancer, Reduced risk of death from
+        respiratory conditions, Reduced risk of death from infections, Better coping skills during hardships
+        and times of stress"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="389dp"
+        android:layout_height="71dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="207dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="sans-serif"
+        android:text="We Heard You're in a Positive Mood!"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-7dp"
+        android:layout_marginTop="185dp"
+        android:fontFamily="sans-serif"
+        android:text="Health benefits that positive thinking may provide include:"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="232dp"
+        android:layout_marginTop="413dp"
+        android:fontFamily="sans-serif"
+        android:text="Here is a Checklist to keep you on the Right Track!"
+        android:textAlignment="textStart"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="197dp"
+        android:layout_height="74dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="227dp"
+        android:layout_marginTop="504dp"
+        android:lines="5"
+        android:text="— Take a walk.  — Read something inspiring.  — Eat a healthy breakfast.  — Listen to inspiring music." />
+
+</RelativeLayout>
